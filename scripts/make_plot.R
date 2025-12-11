@@ -5,7 +5,6 @@ library(tidyr)
 library(ggplot2)
 library(stringr)
 library(readr)
-library(ggrepel)
 
 # Create plots folder if it doesn't exist
 if (!dir.exists("plots")) {
