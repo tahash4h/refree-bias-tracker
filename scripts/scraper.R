@@ -283,8 +283,7 @@ test_scraper <- function(test_url = NULL, test_date = "2023-10-24") {
 # 5. AUTOMATIC 30-DAY SCRAPE WINDOW
 # ---------------------------------------------------------
 
-# Always scrape the last 30 days up to yesterday
-start_date <- Sys.Date() - 30
+start_date <- Sys.Date() - 7
 end_date   <- Sys.Date() - 1
 
 cat("Scraping window:", as.character(start_date), "to", as.character(end_date), "\n")
