@@ -1,6 +1,6 @@
 # NBA Referee Bias Tracker
 
-Latest update: Thu Dec 12 06:00:00 UTC 202
+Latest update: Thu Dec 11 08:22:56 UTC 2025
 
 This project tracks potential bias patterns in NBA referee foul calling using live game data from Basketball Reference. The goal is to determine whether NBA referees show systematic differences in how they call fouls on home versus away teams. Game data including teams, scores, foul counts, and referee assignments are scraped daily from Basketball Reference's box score pages. A GitHub Actions workflow runs automatically every day at 6 AM UTC, executing R scripts in the `scripts/` folder that download the latest completed games, extract referee crews and team foul statistics, clean and validate the data, and append new observations to a growing dataset stored in the repository. This automated pipeline means the analysis stays current without manual intervention, demonstrating how reproducible workflows can maintain an always-updated view of officiating patterns throughout the NBA season.
 
